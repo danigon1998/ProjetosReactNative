@@ -7,7 +7,7 @@ export default function App(){
       <Text style={styles.text}>Hello World</Text>
     </View>
   )
-}
+} 
 
 const styles = StyleSheet.create({
   container:{
