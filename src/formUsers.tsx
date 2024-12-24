@@ -1,6 +1,6 @@
 import React, {useEffect, useState, useRef} from "react";
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, FlatList, Alert } from "react-native";
-import { db, auth } from "../src/firebaseConnection";
+import { db, auth } from "./.firebaseConnection";
 import { doc, getDoc, getDocs, onSnapshot, setDoc, collection, addDoc, updateDoc } from "firebase/firestore";
 import {signOut} from "firebase/auth"
 import Users from "../src/user";

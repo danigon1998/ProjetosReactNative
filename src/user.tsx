@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Alert } from "react-native";
-import { db } from "./firebaseConnection";
+import { db } from "./.firebaseConnection";
 import { deleteDoc, doc, } from "firebase/firestore";
 
 export default function Users({data, handleEdit}:any){
